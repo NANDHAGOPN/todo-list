@@ -1,11 +1,4 @@
-import React from 'react';
-import './App.css';
-import{useState} from 'react'
 
-function App() {
-  const[toDos,setTodos]=useState([])
-  const[toDo,setTodo]=useState('')
-  return (
     <div className="app">
       <div className="mainHeading">
         <h1>ToDo List</h1>
@@ -55,8 +48,4 @@ function App() {
 
       </div>
     </div>
-  );
-}
-
-export default App;
-
+ 
